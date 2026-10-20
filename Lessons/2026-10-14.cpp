@@ -1,3 +1,5 @@
+/*
+
 #include <iostream>
 #include <iomanip>
 
@@ -43,7 +45,7 @@ int main()
 	std::cout.setf(std::ios::boolalpha | std::ios::right);
 	std::cout << "BOOL = " << std::setw(10) << (a > b) << std::endl;
 
-
 	return 0;
 }
 
+*/
