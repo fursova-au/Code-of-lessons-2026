@@ -19,19 +19,14 @@ int main()
 */
 
 #include <iostream>
+#include <iomanip>
 
 //глобальное пространство имён
 
 //int x = 12; //плохо, моветон
 
-//функция для расчёта среднего арифметического
-double q(int n, int m)
-{
-	int sum = n + m;
-	double average = static_cast<double>(sum) / 2;
-
-	return average;
-}
+//заголовок, сигнатура
+double q(int, int);
 
 int main()
 {
@@ -41,7 +36,19 @@ int main()
 
 	std::cin >> a >> b;
 
-	std::cout << "Average = " << q(a, b) << std::endl;
+	//std::cout << "Average = " << q(a, b) << std::endl;
+
+	double result = q(q(a, b) * 2, 100);
+	std::cout << std::fixed << std::setprecision(2) << result << std::endl;
 
 	return 0;
+}
+
+//функция для расчёта среднего арифметического
+double q(int n, int m)
+{
+	int sum = n + m;
+	double average = static_cast<double>(sum) / 2;
+
+	return average;
 }
