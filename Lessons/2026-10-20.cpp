@@ -18,6 +18,8 @@ int main()
 
 */
 
+/*
+
 #include <iostream>
 #include <iomanip>
 
@@ -52,3 +54,4 @@ double q(int n, int m)
 
 	return average;
 }
+*/
