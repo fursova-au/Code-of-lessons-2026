@@ -1,4 +1,5 @@
-﻿#include <iostream>
+﻿/*
+#include <iostream>
 #include <clocale>
 #include <utility>
 
@@ -90,3 +91,5 @@ int main()
 
 	return 0;
 }
+
+*/
