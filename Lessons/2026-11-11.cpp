@@ -48,6 +48,7 @@ int getMiddle(int size, int* adr)
 
 */
 
+/*
 #include <iostream>
 
 void print(int* a, int* b)
@@ -65,3 +66,5 @@ int main(){
 
 	return 0;
 }
+
+*/
