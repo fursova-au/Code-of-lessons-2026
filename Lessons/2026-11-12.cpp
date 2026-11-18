@@ -50,6 +50,7 @@ int main()
 
 */
 
+/*
 #include <iostream>
 
 void printArray(const int* mas, int n)
@@ -88,3 +89,5 @@ int main()
 
 	return 0;
 }
+
+*/
