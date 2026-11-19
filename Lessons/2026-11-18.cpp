@@ -1,4 +1,6 @@
-﻿#include <iostream>
+﻿/*
+
+#include <iostream>
 #include <clocale>
 
 double get_average1(const int* arr, int n)
@@ -104,3 +106,5 @@ int main()
 
 	return 0;
 }
+
+*/
